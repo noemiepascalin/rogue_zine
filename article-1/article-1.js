@@ -8,5 +8,5 @@ import "../css/reset.css";
 import "../css/style.css";
 
 wrapParagraphWords();
-const selectedWordElement = selectWordElements(20);
+const selectedWordElement = selectWordElements(60);
 createDraggableCensor(selectedWordElement);

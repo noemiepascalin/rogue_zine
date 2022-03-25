@@ -1,0 +1,249 @@
+body {
+  background: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.titre {
+  text-transform: uppercase;
+  font-family: "JetBrainsMono-Bold";
+  font-size: 100px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  z-index: 1;
+}
+
+.abces {
+  font-family: "JetBrainsMono-Bold";
+  text-transform: uppercase;
+  font-size: 300px;
+  top: 2100px;
+  margin-left: 10px;
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  transform: rotateZ(-180deg);
+}
+
+.billet {
+  height: 1000px;
+  width: auto;
+  top: 120px;
+  margin-left: -150px;
+  position: absolute;
+  padding-bottom: 10px;
+  z-index: -1;
+}
+
+.sous-titre {
+  text-transform: uppercase;
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "JetBrainsMono-Bold";
+}
+
+.chapeau {
+  background-color: blue;
+  color: blue;
+  text-transform: uppercase;
+}
+
+.headline {
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-top: 900px;
+  margin-left: 50px;
+  width: 15em;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.paragraphe1 {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 50px;
+}
+
+.coupe {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.headline2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-top: 100px;
+  margin-left: 500px;
+  width: 20em;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.paragraphe2 {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 500px;
+}
+
+.coupe2 {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+
+.coupe3 {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+
+.coupe4 {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+
+.headline3 {
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-top: 100px;
+  margin-left: 50px;
+  width: 20em;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.c {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 50px;
+}
+
+.accueil {
+  text-transform: uppercase;
+  font-family: "JetBrainsMono-Bold";
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: blue;
+  width: 6%;
+  height: 40px;
+}
+
+.boite {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1200px;
+}
+
+.cartouche {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1000px;
+  margin-top: 100px;
+}
+
+.cartouche2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 200px;
+  margin-top: -500px;
+}
+
+.cartouche3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1500px;
+  margin-top: -1400px;
+}
+
+.cartouche4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1000px;
+  margin-top: -300px;
+}
+
+.cartouche5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1030px;
+  margin-top: -2300px;
+}
+
+.cartouche6 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1320px;
+  margin-top: -1000px;
+}
+
+.cartouche7 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1220px;
+  margin-top: -1200px;
+}
+
+.cartouche8 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1120px;
+  margin-top: -1800px;
+}
+
+.cartouche9 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 620px;
+  margin-top: -2100px;
+}
