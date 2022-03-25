@@ -1,13 +1,12 @@
 @font-face {
   font-family: "JetBrainsMono-Bold";
-  src: url("/assets/JetBrainsMono-Bold.woff2") format("woff2")
- }
+  src: url("/assets/JetBrainsMono-Bold.woff2") format("woff2");
+}
 
- @font-face {
+@font-face {
   font-family: "JetBrainsMono-Regular";
-  src: url("/assets/JetBrainsMono-Regular.woff2") format("woff2")
- }
-
+  src: url("/assets/JetBrainsMono-Regular.woff2") format("woff2");
+}
 
 body {
   background-color: black;
