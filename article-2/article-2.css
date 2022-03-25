@@ -5,6 +5,11 @@ body {
   font-size: 20px;
 }
 
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
 .textblur {
   filter: blur(25px);
   transition: 0.3s all;

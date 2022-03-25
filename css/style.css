@@ -13,6 +13,11 @@ body {
   font-family: "JetBrainsMono-Bold";
 }
 
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
 /* animation marquee */
 
 .fanzine {
@@ -317,6 +322,7 @@ body {
   color: white;
   font-size: 45px;
   padding: 10px;
+  z-index: 18;
 }
 
 .articles > div {
