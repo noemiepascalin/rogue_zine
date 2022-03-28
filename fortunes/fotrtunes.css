@@ -1,0 +1,150 @@
+body {
+  background: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.giovanni {
+  height: 800px;
+  width: auto;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+.titre {
+  text-transform: uppercase;
+  font-family: "JetBrainsMono-Bold";
+  font-size: 100px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  z-index: 1;
+}
+
+.abces {
+  font-family: "JetBrainsMono-Bold";
+  text-transform: uppercase;
+  font-size: 300px;
+  top: 2140px;
+  margin-left: 10px;
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  transform: rotateZ(-180deg);
+}
+
+.sous-titre {
+  text-transform: uppercase;
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+  font-family: "JetBrainsMono-Bold";
+}
+
+.chapeau {
+  background-color: blue;
+  color: blue;
+  text-transform: uppercase;
+}
+
+.headline {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-left: 950px;
+  font-weight: bold;
+  margin-top: -700px;
+}
+
+.petitheadline {
+  font-size: 30px;
+  margin-left: 950px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.petitheadline2 {
+  font-size: 30px;
+  margin-left: 950px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.paragraphe1 {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 950px;
+}
+
+.armen {
+  height: 800px;
+  width: auto;
+  margin-top: 600px;
+  display: flex;
+  margin-left: 1000px;
+}
+
+.headline2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-left: 150px;
+  font-weight: bold;
+  margin-top: -700px;
+}
+
+.petitheadline3 {
+  font-size: 30px;
+  margin-left: 150px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.petitheadline4 {
+  font-size: 30px;
+  margin-left: 150px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.vuk {
+  height: 800px;
+  width: auto;
+  margin-top: 600px;
+  display: flex;
+  margin-left: 50px;
+}
+
+.paragraphe2 {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 150px;
+}
+
+.headline3 {
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-top: -1100px;
+  margin-left: 950px;
+  width: 20em;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.c {
+  width: 27em;
+  word-wrap: break-word;
+  margin-left: 50px;
+}
+
+.accueil {
+  text-transform: uppercase;
+  font-family: "JetBrainsMono-Bold";
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+}
