@@ -11,7 +11,7 @@ module.exports = defineConfig({
         article2: resolve(__dirname, "./article-2/index.html"),
         article3: resolve(__dirname, "./article-3/index.html"),
         fortunes: resolve(__dirname, "./fortunes/index.html"),
-        about: resolve(__dirname, "./don/index.html"),
+        don: resolve(__dirname, "./don/index.html"),
       },
     },
   },
