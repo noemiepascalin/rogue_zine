@@ -49,12 +49,48 @@ body {
   text-transform: uppercase;
 }
 
+/*Animation Headline Giovanni*/
+
 .headline {
   text-transform: uppercase;
   font-size: 40px;
   margin-left: 950px;
-  font-weight: bold;
   margin-top: -700px;
+  font-weight: bold;
+}
+
+.dynamic-txts .headline{
+  list-style: none;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+  position: relative;
+  animation: slide 80s steps(2) infinite;
+}
+
+.dynamic-txts {
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts ::after{
+  content: "";
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  height: 65%;
+  width: 100%;
+  background: #000000;
+  border-left: 2px solid #0400ff;
+  animation: typing 2s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(58%);
+  }
+  100%{
+    left: 0;
+  }
 }
 
 .petitheadline {
