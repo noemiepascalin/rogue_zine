@@ -12,7 +12,6 @@ a:link {
 .textblur {
   filter: blur(25px);
   transition: 0.3s all;
-  cursor: pointer;
 }
 
 :hover {
@@ -45,6 +44,15 @@ a:link {
   width: auto;
   margin-left: 50px;
   position: absolute;
+}
+
+.imgblur {
+  filter: blur(25px);
+  transition: 0.3s all;
+}
+
+.imgblur:hover {
+  filter: blur(0);
 }
 
 .sous-titre {
@@ -254,4 +262,70 @@ a:link {
   height: 25px;
   margin-left: 620px;
   margin-top: -2100px;
+}
+
+.cartouche10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1280px;
+  margin-top: -2450px;
+}
+
+.cartouche11 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 890px;
+  margin-top: -2600px;
+}
+
+.cartouche12 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 920px;
+  margin-top: -800px;
+}
+
+.cartouche13 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 220px;
+  margin-top: 20px;
+}
+
+.cartouche14 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1220px;
+  margin-top: -2100px;
+}
+
+.cartouche15 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: blue;
+  width: 6%;
+  height: 25px;
+  margin-left: 1280px;
+  margin-top: -1600px;
 }

@@ -1,21 +1,25 @@
 body {
-margin: 0;
-text-align: center;
-position: relative;
-margin-top: 15%;
-font-size: 150%;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  color: white;
+  font-size: 150%;
 }
 
 .accueil {
-    margin: 0;
-    text-transform: uppercase;
-    font-family: "JetBrainsMono-Bold";
-    font-size: 20px;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: blue;
-    color: white;
-    width: 6%;
-    height: 25px;
-  }
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "JetBrainsMono-Bold";
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: blue;
+  color: white;
+  width: 6%;
+  height: 40px;
+}
+
+.fundraising {
+  margin-top: 150px;
+}
