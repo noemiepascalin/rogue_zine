@@ -313,6 +313,15 @@ a:link {
   position: relative;
 }
 
+.texte {
+  color: white;
+  text-align: center;
+  max-width: 27em;
+  display: flex;
+  margin-left: 680px;
+  margin-top: -20px;
+}
+
 .articles {
   position: absolute;
   display: grid;

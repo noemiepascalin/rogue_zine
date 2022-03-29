@@ -35,7 +35,7 @@ a:link {
   height: 1000px;
   width: auto;
   top: 120px;
-  margin-left: -150px;
+  margin-left: -10px;
   position: absolute;
   padding-bottom: 10px;
   z-index: -1;
@@ -160,8 +160,8 @@ a:link {
   background-color: blue;
   width: 6%;
   height: 25px;
-  margin-left: 1000px;
-  margin-top: 100px;
+  margin-left: 1400px;
+  margin-top: -600px;
 }
 
 .cartouche2 {
@@ -254,9 +254,11 @@ a:link {
 
 .articles {
   font-family: "JetBrainsMono-Bold";
-  position: absolute;
-  display: flex;
-  justify-content: space-between;
+  position: relative;
+  display: grid;
+  grid-template-areas: "myArea myArea";
+  grid-gap: 1490px;
+  margin: 50px;
   color: white;
   font-size: 15px;
 }
