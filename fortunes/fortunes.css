@@ -70,27 +70,25 @@ body {
 .dynamic-txts {
   position: relative;
   margin: 5px 0;
-  line-height: 90px;
+  line-height: 42px;
 }
 
 .dynamic-txts ::after {
   content: "";
-  z-index: 1;
   position: absolute;
+  z-index: 1;
   left: 0;
-  height: 65%;
+  height: 40px;
   width: 100%;
   background: #000000;
   border-left: 2px solid #0400ff;
   animation: typing 2s steps(10) infinite;
 }
+
 @keyframes typing {
   40%,
   60% {
-    left: calc(56%);
-  }
-  100% {
-    left: 0;
+    left: calc(72%);
   }
 }
 
@@ -98,7 +96,7 @@ body {
   font-size: 30px;
   margin-left: 950px;
   font-weight: bold;
-  margin-top: -25px;
+  margin-top: 10px;
 }
 
 .petitheadline2 {
