@@ -11,12 +11,12 @@
 body {
   background-color: black;
   font-family: "JetBrainsMono-Bold";
+  overflow-x: hidden;
 }
 
-a:link 
-{ 
- text-decoration:none; 
-} 
+a:link {
+  text-decoration: none;
+}
 
 /* animation marquee */
 
@@ -382,10 +382,4 @@ p span {
   left: 0;
   width: 100%;
   z-index: 2;
-}
-
-@media all and (max-width: 1200px) {
-  .scrambled {
-    word-break: break-all;
-  }
 }
