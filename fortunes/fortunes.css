@@ -52,37 +52,151 @@ body {
 .headline {
   text-transform: uppercase;
   font-size: 40px;
-  margin-left: 910px;
   margin-top: -700px;
+  margin-left: 945px;
   font-weight: bold;
 }
 
-/*Animation Headline Giovanni*/
+/*Animation Headline*/
 
-.text-typing {
-  padding:20px 30px;
-  font-size:35px;
-  border-radius:50px;
-}
 .text-typing .headline {
-  margin:0px;
-  white-space:nowrap;
-  overflow:hidden;
-  animation:typing 4s steps(24,end) forwards,
-            blink 1s infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(17, end) forwards, blink 1s infinite;
 }
 @keyframes typing {
-  60% { width:0% }
-  100% { width:75% }
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
 }
 @keyframes blink {
-  0%,100% {
-    border-right:2px solid transparent;
+  0%,
+  100% {
+    border-right: 2px solid transparent;
   }
   50% {
-    border-right:2px solid blue;
+    border-right: 2px solid blue;
   }
 }
+
+.text-typing .headline2 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(17, end) forwards, blink 1s infinite;
+}
+@keyframes typing {
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes blink {
+  0%,
+  100% {
+    border-right: 2px solid transparent;
+  }
+  50% {
+    border-right: 2px solid blue;
+  }
+}
+
+.text-typing .headline3 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(17, end) forwards, blink 1s infinite;
+}
+@keyframes typing {
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes blink {
+  0%,
+  100% {
+    border-right: 2px solid transparent;
+  }
+  50% {
+    border-right: 2px solid blue;
+  }
+}
+
+.text-typing .headline4 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(17, end) forwards, blink 1s infinite;
+}
+@keyframes typing {
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes blink {
+  0%,
+  100% {
+    border-right: 2px solid transparent;
+  }
+  50% {
+    border-right: 2px solid blue;
+  }
+}
+
+.text-typing .headline5 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(17, end) forwards, blink 1s infinite;
+}
+@keyframes typing {
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  0%,
+  100% {
+    border-right: 2px solid transparent;
+  }
+  50% {
+    border-right: 2px solid blue;
+  }
+}
+
+.text-typing .headline6 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(17, end) forwards, blink 1s infinite;
+}
+@keyframes typing {
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 35%;
+  }
+}
+@keyframes blink {
+  0%,
+  100% {
+    border-right: 2px solid transparent;
+  }
+  50% {
+    border-right: 2px solid blue;
+  }
+}
+/*fin animation headline*/
 
 .petitheadline {
   font-size: 30px;

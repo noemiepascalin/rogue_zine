@@ -315,10 +315,11 @@ a:link {
 
 .texte {
   color: white;
-  text-align: center;
-  max-width: 27em;
+  text-align: left;
+  font-size: 25px;
+  max-width: 40em;
   display: flex;
-  margin-left: 680px;
+  margin-left: 260px;
   margin-top: -20px;
 }
 
