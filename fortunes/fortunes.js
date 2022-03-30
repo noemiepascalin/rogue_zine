@@ -15,5 +15,5 @@ function animateValue(obj, start, end, duration) {
   window.requestAnimationFrame(step);
 }
 /* */
-const obj = document.getElementById("petitheadline");
+const obj = document.getElementById("glitch");
 animateValue(obj, 0, 252918387, 350);

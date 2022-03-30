@@ -69,7 +69,7 @@ body {
     width: 0%;
   }
   100% {
-    width: 75%;
+    width: 29%;
   }
 }
 @keyframes blink {
@@ -82,12 +82,20 @@ body {
   }
 }
 
-.text-typing .headline2 {
+.headline2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-left: 150px;
+  font-weight: bold;
+  margin-top: -700px;
+}
+
+.text-typing2 .headline2 {
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 2s steps(17, end) forwards, blink 1s infinite;
+  animation: typing2 2s steps(17, end) forwards, blink 1s infinite;
 }
-@keyframes typing {
+@keyframes typing2 {
   60% {
     width: 0%;
   }
@@ -105,12 +113,22 @@ body {
   }
 }
 
-.text-typing .headline3 {
+.headline3 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-left: 950px;
+  width: 20em;
+  margin-top: -700px;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.text-typing3 .headline3 {
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 2s steps(17, end) forwards, blink 1s infinite;
+  animation: typing3 2s steps(17, end) forwards, blink 1s infinite;
 }
-@keyframes typing {
+@keyframes typing3 {
   60% {
     width: 0%;
   }
@@ -128,12 +146,22 @@ body {
   }
 }
 
-.text-typing .headline4 {
+.headline4 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-left: 950px;
+  width: 20em;
+  margin-top: -700px;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.text-typing4 .headline4 {
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 2s steps(17, end) forwards, blink 1s infinite;
+  animation: typing4 2s steps(17, end) forwards, blink 1s infinite;
 }
-@keyframes typing {
+@keyframes typing4 {
   60% {
     width: 0%;
   }
@@ -151,12 +179,20 @@ body {
   }
 }
 
-.text-typing .headline5 {
+.headline5 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-left: 150px;
+  font-weight: bold;
+  margin-top: -700px;
+}
+
+.text-typing5 .headline5 {
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 2s steps(17, end) forwards, blink 1s infinite;
+  animation: typing5 2s steps(17, end) forwards, blink 1s infinite;
 }
-@keyframes typing {
+@keyframes typing5 {
   60% {
     width: 0%;
   }
@@ -174,12 +210,22 @@ body {
   }
 }
 
-.text-typing .headline6 {
+.headline6 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-left: 950px;
+  width: 20em;
+  margin-top: -700px;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.text-typing6 .headline6 {
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 2s steps(17, end) forwards, blink 1s infinite;
+  animation: typing6 2s steps(17, end) forwards, blink 1s infinite;
 }
-@keyframes typing {
+@keyframes typing6 {
   60% {
     width: 0%;
   }
@@ -227,14 +273,6 @@ body {
   margin-left: 1000px;
 }
 
-.headline2 {
-  text-transform: uppercase;
-  font-size: 40px;
-  margin-left: 150px;
-  font-weight: bold;
-  margin-top: -700px;
-}
-
 .petitheadline3 {
   font-size: 30px;
   margin-left: 150px;
@@ -262,16 +300,6 @@ body {
   margin-top: 600px;
   display: flex;
   margin-left: 50px;
-}
-
-.headline3 {
-  text-transform: uppercase;
-  font-size: 40px;
-  margin-left: 950px;
-  width: 20em;
-  margin-top: -700px;
-  word-wrap: break-word;
-  font-weight: bold;
 }
 
 .petitheadline5 {
@@ -305,16 +333,6 @@ body {
   margin-left: 50px;
 }
 
-.headline4 {
-  text-transform: uppercase;
-  font-size: 40px;
-  margin-left: 950px;
-  width: 20em;
-  margin-top: -700px;
-  word-wrap: break-word;
-  font-weight: bold;
-}
-
 .petitheadline7 {
   position: absolute;
   font-size: 30px;
@@ -346,14 +364,6 @@ body {
   margin-left: 1000px;
 }
 
-.headline5 {
-  text-transform: uppercase;
-  font-size: 40px;
-  margin-left: 150px;
-  font-weight: bold;
-  margin-top: -700px;
-}
-
 .petitheadline9 {
   font-size: 30px;
   margin-left: 150px;
@@ -381,16 +391,6 @@ body {
   margin-top: 600px;
   display: flex;
   margin-left: 50px;
-}
-
-.headline6 {
-  text-transform: uppercase;
-  font-size: 40px;
-  margin-left: 950px;
-  width: 20em;
-  margin-top: -700px;
-  word-wrap: break-word;
-  font-weight: bold;
 }
 
 .petitheadline11 {

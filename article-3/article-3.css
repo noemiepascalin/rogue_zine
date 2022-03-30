@@ -58,11 +58,101 @@ a:link {
 .headline {
   text-transform: uppercase;
   font-size: 40px;
-  padding-top: 900px;
+  margin-top: 900px;
   margin-left: 50px;
   width: 15em;
   word-wrap: break-word;
   font-weight: bold;
+}
+
+/*Animation Headline PLUS DE 100 MILLIARDS DE DOLLARS*/
+
+.text-typing {
+  margin-top: 0%;
+  padding:20px 30px;
+  font-size:1px;
+  border-radius:50px;
+}
+.text-typing .headline {
+  margin-left: 20px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 4s steps(40,end) forwards,
+            blink 1s infinite;
+}
+@keyframes typing {
+  60% { width:0% }
+  100% { width:53%}
+}
+
+@keyframes blink {
+  0%,100% {
+    border-right:2px solid transparent;
+  }
+  50% {
+    border-right:2px solid blue;
+  }
+}
+
+.headline2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 500px;
+  width: 20em;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+/*Animation Headline2 LIGNE DE DÉFENSE COMPLOTISTE.*/
+
+.text-typing2 {
+  margin-top: 0%;
+  padding:20px 30px;
+  font-size:1px;
+  border-radius:50px;
+}
+.text-typing2 .headline2 {
+  margin-left: 470px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing2 4s steps(40,end) forwards,
+            blink 1s infinite;
+}
+@keyframes typing2 {
+  60% { width:0% }
+  100% { width:48%}
+}
+
+
+.headline3 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 20em;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+/*Animation Headline3 MORALEMENT RÉPUGNANT.*/
+
+.text-typing3 {
+  margin-top: 0%;
+  padding:20px 30px;
+  font-size:1px;
+  border-radius:50px;
+}
+.text-typing3 .headline3 {
+  margin-left: 470px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing3 4s steps(40,end) forwards,
+            blink 1s infinite;
+}
+@keyframes typing3 {
+  60% { width:0% }
+  100% { width:48%}
 }
 
 .paragraphe1 {
@@ -83,16 +173,6 @@ a:link {
   word-wrap: break-word;
   margin-left: 50px;
   margin-top: 20px;
-}
-
-.headline2 {
-  text-transform: uppercase;
-  font-size: 40px;
-  padding-top: 100px;
-  margin-left: 500px;
-  width: 20em;
-  word-wrap: break-word;
-  font-weight: bold;
 }
 
 .paragraphe2 {
@@ -140,16 +220,6 @@ a:link {
   word-wrap: break-word;
   margin-left: 50px;
   margin-top: 20px;
-}
-
-.headline3 {
-  text-transform: uppercase;
-  font-size: 40px;
-  padding-top: 100px;
-  margin-left: 50px;
-  width: 20em;
-  word-wrap: break-word;
-  font-weight: bold;
 }
 
 .c {
