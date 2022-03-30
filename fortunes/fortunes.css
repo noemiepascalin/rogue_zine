@@ -49,8 +49,6 @@ body {
   text-transform: uppercase;
 }
 
-/*Animation Headline Giovanni*/
-
 .headline {
   text-transform: uppercase;
   font-size: 40px;
@@ -59,36 +57,30 @@ body {
   font-weight: bold;
 }
 
-.dynamic-txts .headline {
-  position: relative;
-  color: #ffffff;
-  font-size: 40px;
-  font-weight: 500;
-  animation: slide 80s steps(2) infinite;
-}
+/*Animation Headline Giovanni*/
 
-.dynamic-txts {
-  position: relative;
-  margin: 5px 0;
-  line-height: 42px;
+.text-typing {
+  padding:20px 30px;
+  font-size:35px;
+  border-radius:50px;
 }
-
-.dynamic-txts ::after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  height: 40px;
-  width: 100%;
-  background: #000000;
-  border-left: 2px solid #0400ff;
-  animation: typing 2s steps(10) infinite;
+.text-typing .headline {
+  margin:0px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 4s steps(24,end) forwards,
+            blink 1s infinite;
 }
-
 @keyframes typing {
-  40%,
-  60% {
-    left: calc(72%);
+  60% { width:0% }
+  100% { width:75% }
+}
+@keyframes blink {
+  0%,100% {
+    border-right:2px solid transparent;
+  }
+  50% {
+    border-right:2px solid blue;
   }
 }
 
