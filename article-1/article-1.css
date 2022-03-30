@@ -66,35 +66,6 @@ a:link {
   font-weight: bold;
 }
 
-/*Animation Headline Tribune*/
-
-.text-typing {
-  margin-top: 0%;
-  padding:20px 30px;
-  font-size:1px;
-  border-radius:50px;
-}
-.text-typing .headline {
-  margin-left: 20px;
-  white-space:nowrap;
-  overflow:hidden;
-  animation:typing 4s steps(24,end) forwards,
-            blink 1s infinite;
-}
-@keyframes typing {
-  60% { width:0% }
-  100% { width:13%}
-}
-
-@keyframes blink {
-  0%,100% {
-    border-right:2px solid transparent;
-  }
-  50% {
-    border-right:2px solid blue;
-  }
-}
-
 .headline2 {
   text-transform: uppercase;
   font-size: 40px;
@@ -105,26 +76,6 @@ a:link {
   font-weight: bold;
 }
 
-/*Animation Headline Galerie de malfrats.*/
-
-.text-typing2 {
-  margin-top: 0%;
-  padding:20px 30px;
-  font-size:1px;
-  border-radius:50px;
-}
-.text-typing2 .headline2 {
-  margin-left: 465px;
-  white-space:nowrap;
-  overflow:hidden;
-  animation:typing2 4s steps(37,end) forwards,
-            blink 1s infinite;
-}
-@keyframes typing2 {
-  60% { width:0% }
-  100% { width:34%}
-}
-
 .headline3 {
   text-transform: uppercase;
   font-size: 40px;
@@ -133,26 +84,6 @@ a:link {
   width: 20em;
   word-wrap: break-word;
   font-weight: bold;
-}
-
-/*Animation Headline Moralement répugnant*/
-
-.text-typing3 {
-  margin-top: 0;
-  padding:20px 30px;
-  font-size:1px;
-  border-radius:50px;
-}
-.text-typing3 .headline3 {
-  margin-left: 20px;
-  white-space:nowrap;
-  overflow:hidden;
-  animation:typing3 4s steps(37,end) forwards,
-            blink 1s infinite;
-}
-@keyframes typing3 {
-  60% { width:0% }
-  100% { width:39%}
 }
 
 .paragraphe1 {

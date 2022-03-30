@@ -320,7 +320,7 @@ a:link {
   max-width: 40em;
   display: flex;
   margin-left: 260px;
-  margin-top: -20px;
+  margin-bottom: 235px;
 }
 
 .articles {
@@ -381,15 +381,4 @@ li {
 
 p span {
   position: relative;
-}
-
-.draggable {
-  background-color: blue;
-  cursor: move;
-  height: 28px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 2;
 }
